@@ -5,6 +5,19 @@
 //  Created by Sofia Rodriguez Morales on 31/10/21.
 //
 
+/*
+     Time Complexity
+  =======================
+||    Action    || Time  ||
+||=======================||
+|| Enqueue      ||  O(n) ||
+||--------------||-------||
+|| Dequeue      ||  O(1) ||
+||--------------||-------||
+|| Peek         ||  O(1) ||
+  =======================
+*/
+
 import Foundation
 
 protocol Queue {
