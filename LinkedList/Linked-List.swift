@@ -1,3 +1,28 @@
+//
+//  Linked-List.swift
+//
+//
+//  Created by Sofia Rodriguez Morales on 31/10/21.
+//
+/*
+     Time Complexity
+  =======================
+||    Action    || Time  ||
+||=======================||
+|| Push         ||  O(1) ||
+||--------------||-------||
+|| Append       ||  O(n) ||
+||--------------||-------||
+|| Insert       ||  O(n) ||
+||--------------||-------||
+|| Pop          ||  O(1) ||
+||--------------||-------||
+|| RemoveLast   ||  O(n) ||
+||--------------||-------||
+|| Remove       ||  O(n) ||
+  =======================
+*/
+
 class Node<Element> {
     var value: Element
     var next: Node?
